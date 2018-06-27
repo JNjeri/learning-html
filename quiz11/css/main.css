@@ -1,0 +1,92 @@
+body{
+	background-color: grey;
+	
+}
+
+@media screen and (min-width: 500px){
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #leftsidebar {width: 400px; float: left;}
+    #main {margin-left: 216px;}
+}
+
+
+header{
+	background-color: #e7e7e7;
+	padding: 10px;
+}
+
+.cont{
+	background-color: tomato;
+	width: 800px;
+	min-height: 600px;
+	margin: 0 auto;
+
+	position: relative;
+}
+.cont .index{
+	background-color:white;
+	width:350px;
+	margin:  10px;
+	min-height: 150px;
+	border-spacing: 1px;
+	position: absolute;
+}
+
+.cont .main{
+	background-color:white;
+	width:350px;
+	margin:  10px;
+	min-height: 150px;
+	border-spacing: 1px;
+	float: right;
+}
+.cont .joy{
+	background-color:white;
+	width:150px;
+	min-height: 300px;
+	position:absolute;
+	top:200px;
+	margin: 10px;
+
+}
+.cont .carol{
+	background-color:white;
+	width:150px;
+	min-height: 300px;
+	position:absolute;
+	top:200px;
+	margin: 10px;
+}
+.cont .wangila{
+	background-color:white;
+	width:150px;
+	min-height: 300px;
+	position:absolute;
+	top:200px;
+	margin: 10px;
+	left:200px;
+}
+
+.cont .ivy{
+	background-color:white;
+	width:150px;
+	min-height: 300px;
+	position:absolute;
+	top:200px;
+	margin: 10px;
+	left:400px;
+}
+.cont .love{
+	background-color:white;
+	width:150px;
+	min-height: 300px;
+	position:absolute;
+	top:200px;
+	margin: 10px;
+	left:600px;
+}

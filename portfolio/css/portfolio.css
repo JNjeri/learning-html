@@ -1,0 +1,38 @@
+body{
+	background-color: black;
+}
+.cont{
+	background-image: none;
+	background-color: #e7e7e7;
+	width: 1200px;
+	min-height: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+.column2{
+   	position: relative;
+   	top: -856px;
+    float: right;
+    padding: 10px;
+}
+.column3{
+   	position: relative;
+   top: -450px;
+    float: right;
+    right: 450px;
+    padding: 10px;
+}
+.column4{
+   	position: relative;
+   	top: -880px;
+   	right: -585px;
+    float: left;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

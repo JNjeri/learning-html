@@ -1,0 +1,55 @@
+body{
+	background-color: #e7e7e7;
+	color:grey;
+}
+.container{
+	background-color: white;
+	width: 400px;
+	margin: 50px;
+	min-height: 400px;
+	margin: 0 auto;
+}
+.container h1{
+	text-align: left;
+	padding: 10px;
+	color: #90a7b7;
+}
+.container .input{
+	padding: 10px;
+	
+	
+}
+.container .radio{
+	padding: 20px;
+	float: left;
+
+}
+.container .button{
+	padding: 40px;
+
+}
+.fa-facebook{
+	background-color: blue;
+	width: 300px;
+	padding: 10px;
+	color: white;
+}
+.fa-twitter{
+	background-color:#00acee;
+	width: 300px;
+	padding: 10px;
+	color: white;
+}
+.icons{
+	padding: 20px;
+}
+button{
+	background-color: green;
+	padding: 20px;
+	color: white;
+
+}
+
+input{
+	padding: 10px;
+}

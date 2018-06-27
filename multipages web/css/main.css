@@ -1,0 +1,57 @@
+body{
+
+	font:bold;
+	margin: 0 auto;
+	background-image: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+	 
+}
+@media screen and (min-width: 100px){
+    body {
+        background-color: red;
+    }
+}
+.header {
+	color: blue;
+	background-color: yellow;
+	padding: 5px;	
+	height: 200px;
+
+}
+
+h1{
+	 color: yellow;
+}
+
+
+ .container {
+	margin:0 auto;
+	width: 1000px;
+	min-height: 1000px;
+	background-color: white;
+	text-align: left;
+	
+}
+li{
+	display: inline-block;
+	padding: 10px;
+
+}
+
+.pic .holder{
+	background-color: red;
+	width:400px;
+	padding: 2px;
+	height: 415px;
+	float: right;
+}
+
+
+footer{
+	background-color: #222;
+	padding: 5px;
+	color: green;
+}

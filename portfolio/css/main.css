@@ -1,0 +1,149 @@
+body{
+	background-color: grey;
+}
+
+
+
+.cont{
+	background-image: url(../img/Website.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: black;
+    }
+}
+
+h1{
+	color: pink;
+	text-align: center;
+	position: relative;
+	bottom: -250px;
+	text-shadow: 5px 5px pink;
+	letter-spacing: 40px;
+	font-size: 80px;
+}	
+h2{
+	color: white;
+	text-align: center;
+	position: relative;
+	bottom: -200px;
+	letter-spacing: 5px;
+	font-size: 40px;
+}
+li{
+	display: inline-block;
+	padding-right: 30px;
+	margin: 10px;
+
+}
+nav{
+	background-color: white;
+	position: absolute;
+	width: 1000px;
+	right: -1px;
+	top: 1px;
+	
+}
+footer{
+	text-align: center;
+	color: grey;
+	position: absolute;
+	bottom: 40px;
+	left: 400px;
+}
+.fa-facebook-square{
+	color: pink;
+
+}
+
+.fa-git-square{
+	color: pink;
+	position: relative;
+	right: 155px;
+	top: 30px;
+	font-size: 5px;
+}
+.fa-instagram{
+	color: pink;
+	right: 200px;
+}
+
+ .fa-google-plus-square{
+ 	color: pink;
+ 	position: relative;
+ 	left: 150px;
+ }
+#portfolio{
+	background-color:tomato;
+}
+
+./*cont .index{
+	background-color:white;
+	width:350px;
+	margin:  10px;
+	min-height: 150px;
+	border-spacing: 1px;
+	position: absolute;
+}
+
+.cont .main{
+	background-color:white;
+	width:350px;
+	margin:  10px;
+	min-height: 150px;
+	border-spacing: 1px;
+	float: right;
+}
+.cont .joy{
+	background-color:white;
+	width:150px;
+	min-height: 300px;
+	position:absolute;
+	top:200px;
+	margin: 10px;
+
+}
+.cont .carol{
+	background-color:white;
+	width:150px;
+	min-height: 300px;
+	position:absolute;
+	top:200px;
+	margin: 10px;
+}
+.cont .wangila{
+	background-color:white;
+	width:150px;
+	min-height: 300px;
+	position:absolute;
+	top:200px;
+	margin: 10px;
+	left:200px;
+}
+
+.cont .ivy{
+	background-color:white;
+	width:150px;
+	min-height: 300px;
+	position:absolute;
+	top:200px;
+	margin: 10px;
+	left:400px;
+}
+.cont .love{
+	background-color:white;
+	width:150px;
+	min-height: 300px;
+	position:absolute;
+	top:200px;
+	margin: 10px;
+	left:600px;
+}*/

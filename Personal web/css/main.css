@@ -1,0 +1,45 @@
+body{
+	/*background-color: grey;*/
+	font:bold;
+	width: 1200px;
+	margin: 0 auto;
+	background-image: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+	 
+}
+.header {
+	color: grey;
+	background-color: #222;
+	text-align: center;
+	padding: 30px;
+
+}
+
+h1{
+	 color: #222;
+}
+
+
+ .container {
+	padding: 50px;
+	margin: 1px;
+	min-height: 1000px;
+	width: 1000px;
+	background-color: white;
+	text-align: left;
+	/*float: right;*/
+}
+ .image{
+ 	
+	float:right;
+}
+
+footer{
+	text-align: center;
+	background-color: #222;
+	padding: 30px;
+	color: grey;
+}

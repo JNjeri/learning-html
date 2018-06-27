@@ -1,0 +1,33 @@
+body{
+	background-color: black;
+	font-family: 'Nanum Brush Script', cursive;
+	width: 1000px;
+	color:white;
+	font-size: 20px;
+	 
+}
+header {
+
+	color: grey;
+	text-align: center;
+}
+
+h1{
+	 color: green;
+}
+
+h2{
+	color: blue;
+}
+div {
+	padding: 50px;
+	margin: 50px;
+	min-height: 800px;
+	background-color: grey;
+	text-align: left;
+
+}
+
+footer{
+	text-align: center;
+}

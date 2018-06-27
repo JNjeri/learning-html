@@ -1,0 +1,59 @@
+body{
+	background-color: white;
+	color:white;	 
+}
+header{
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+	background-color:#00acee;
+	width: 100%;
+
+}
+.container{
+	width: 500px;
+	min-height: 300px;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: tomato;
+	position: relative;
+	margin-top: 10px;
+}
+
+.test{
+	background-color:blue;
+	position: absolute;
+	left: -5%;
+	top: -5%;
+	width: 100px;
+	min-height:100px;
+}
+.class{
+	background-color:blue;
+	position: absolute;
+	right: -5%;
+	top: -5%;
+	width: 100px;
+	min-height:100px;
+}
+
+.cont{
+	background-color:blue;
+	position: absolute;
+	right: -5%;
+	bottom:-5%;
+	width: 100px;
+	min-height:100px;
+}
+
+.last{
+	background-color:blue;
+	position: absolute;
+	left: -5%;
+	bottom:-5%;
+	width: 100px;
+	min-height:100px;
+}
+footer{
+	text-align: center;
+}
