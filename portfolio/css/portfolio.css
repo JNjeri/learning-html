@@ -1,38 +1,42 @@
 body{
 	background-color: black;
 }
-.cont{
-	background-image: none;
-	background-color: #e7e7e7;
-	width: 1200px;
-	min-height: 600px;
+.container{
+	/*background-color: #dbf4f1;*/
+	width: 1000px;
 	margin: 0 auto;
-	position: relative;
+	color: black;
+	padding: 20px;
+
 }
-.column2{
-   	position: relative;
-   	top: -856px;
-    float: right;
-    padding: 10px;
+.mynav{
+	background-color: #eeaba2;
 }
-.column3{
-   	position: relative;
-   top: -450px;
-    float: right;
-    right: 450px;
-    padding: 10px;
-}
-.column4{
-   	position: relative;
-   	top: -880px;
-   	right: -585px;
-    float: left;
-    padding: 10px;
+button:hover{
+  /*background-color: #415776;*/
+  color: black;
+  font-weight: 10px;
+  padding: 10px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+button{
+  /*background-color: #fecacc;*/
+  color: black;
+  font-weight: 10px;
+  padding: 10px;
+}
+li{
+  display: inline-block;
+  padding: 30px;
+}
+h1{
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;}
+.col-sm-3{
+	color: blue;
+	font-family: 'PT Sans', sans-serif;
+}
+h2{
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
 }

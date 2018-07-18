@@ -9,24 +9,24 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	width: 1000px;
+	/*width: 1000px;*/
 	height: 600px;
-	margin: 0 auto;
-	position: relative;
+	/*margin: 0 auto;*/
+	/*position: relative;*/
 }
 
-@media screen and (min-width: 600px) {
+/*@media screen and (min-width: 600px) {
     body {
-        background-color: black;
+        background-color: #ffffff;
     }
-}
+}*/
 
 h1{
-	color: pink;
+	color: #f26963;
 	text-align: center;
 	position: relative;
 	bottom: -250px;
-	text-shadow: 5px 5px pink;
+	text-shadow: 5px 5px  #f26963;
 	letter-spacing: 40px;
 	font-size: 80px;
 }	
@@ -45,13 +45,20 @@ li{
 
 }
 nav{
-	background-color: white;
-	position: absolute;
-	width: 1000px;
-	right: -1px;
-	top: 1px;
-	
+	background-color: #f26963;
+	position: relative;
+	/*width: 1000px;*/
+	top: -200px;
+	*/
 }
+
+button{
+  background-color: #fecacc;
+  color: black;
+  font-weight: 10px;
+  padding: 10px;
+}
+
 footer{
 	text-align: center;
 	color: grey;
@@ -60,30 +67,27 @@ footer{
 	left: 400px;
 }
 .fa-facebook-square{
-	color: pink;
+	color:  #f26963;
 
 }
 
 .fa-git-square{
-	color: pink;
+	color:  #f26963;
 	position: relative;
 	right: 155px;
 	top: 30px;
 	font-size: 5px;
 }
 .fa-instagram{
-	color: pink;
+	color:  #f26963;
 	right: 200px;
 }
 
  .fa-google-plus-square{
- 	color: pink;
+ 	color:  #f26963;
  	position: relative;
  	left: 150px;
  }
-#portfolio{
-	background-color:tomato;
-}
 
 ./*cont .index{
 	background-color:white;
